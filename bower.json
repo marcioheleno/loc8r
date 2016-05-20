@@ -1,0 +1,18 @@
+{
+  "name": "loc8r",
+  "description": "Material de Estudo",
+  "main": "",
+  "authors": [
+    "marcioheleno <marcio@marcioheleno.website>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/marcioheleno/loc8r",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
