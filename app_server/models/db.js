@@ -8,7 +8,7 @@ var mongoose = require('mongoose');
 var dbURI = 'mongodb://localhost/Loc8r';
 mongoose.connect(dbURI);
 
-var dbURIlog = 'mongodb://localhost/loc8rLog';
+// var dbURIlog = 'mongodb://localhost/loc8rLog';
 // var logDB = mongoose.createConnection(dbURIlog);
 //
 // logDB.on('connected', function () {
