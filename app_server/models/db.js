@@ -38,7 +38,7 @@ mongoose.connection.on('open', function () {
 
 
 // Capiturando Evento de restart
-graceFullShutdown = function (msg, callback) {
+var graceFullShutdown = function (msg, callback) {
   mongoose.connection.close(function () {
     console.log('Mongoose esta disconectado ' + msg);
     callback();
