@@ -6,7 +6,7 @@
 /* GET home => controller */
 module.exports.homelist = function (req, res) {
   res.render('index', {
-    title: 'Loc8r',
+    title: 'Loc8r vamos la mais um teste',
     content: 'Find places to work with wifi near you!'
   })
 };
